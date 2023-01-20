@@ -23,7 +23,7 @@ describe("Given the class CodersArray,", () => {
         fourthArgument
       );
 
-      expect(resultedObject).toBe(expectedObject);
+      expect(resultedObject).toEqual(expectedObject);
     });
   });
 });
